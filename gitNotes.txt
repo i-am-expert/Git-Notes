@@ -1,0 +1,31 @@
+## Working with local repository
+
+git --version	# version of git installed
+
+git init	# initialize git 
+git config --global user.name ""	# sets user name
+git config --global user.email ""	# sets user email
+
+git add <filename>	# adding files to staging area
+git add *<extension> (ex: *.html)	# adding all html files to staging area
+git add .	# add everything
+
+git status	# to see what is there in staging area
+
+git rm --cached <filename>	# remove files from staging area
+
+git commit -m "<commit message>" # to make a commit
+
+# .gitignore file
+# in this file, add those files and directories which you don't want to commit
+
+git branch <newBranchName>	# creates a new branch, but after this command also, we remain in same branch
+git checkout <branchName>		# switches to this branch
+
+git merge <branchName>	# merges branches
+
+## Now work with remote repository
+
+# Create new repository
+git remote		# lists all remote repositories
+git remote add origin master <url>
