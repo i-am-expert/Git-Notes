@@ -1,3 +1,5 @@
+## Author: Rishabh Sethi
+
 ## Working with local repository
 
 git --version	# version of git installed
@@ -30,3 +32,10 @@ git merge <branchName>	# merges branches
 git remote		# lists all remote repositories
 git remote add origin master <url>
 git push -u origin master	  # actually pushes to remote repository
+
+git push 	# use this command to push to github after commit
+
+## Clone or download a repository
+
+git clone <url>		# downloads the entire repository
+git pull	# if some other user has change the repo, use this update the local version of a repo from remote
