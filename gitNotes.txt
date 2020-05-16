@@ -29,3 +29,4 @@ git merge <branchName>	# merges branches
 # Create new repository
 git remote		# lists all remote repositories
 git remote add origin master <url>
+git push -u origin master	  # actually pushes to remote repository
